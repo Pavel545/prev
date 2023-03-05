@@ -1,0 +1,15 @@
+.preview{
+    width: 30%;
+    padding: 10px;
+    background: #fff;
+    border-radius: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.preview_img{
+    width: 100%;
+    
+}
+.preview_text{
+    text-align: center;
+}
