@@ -9,7 +9,7 @@
     width: 100%;
 }
 .right_gallery{
-    height: 70vh;
+    height: 95vh;
     width: 23%;
     background: #002580;
     position: fixed;
@@ -24,9 +24,17 @@
     gap: 30px;
     overflow-x: hidden;
     overflow-y: scroll;
-
+    top: 0;
     
 }
 .showcase_text{
     color: #fff;
+}
+.bec{
+    color: red;
+    border-radius: 20px 0 0 20px;
+    position: fixed;
+    height: 100vh;
+    right: 0;
+    top: 0;
 }
