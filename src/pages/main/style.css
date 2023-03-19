@@ -1,0 +1,21 @@
+.main{
+    background: #3e444f;
+
+}
+.main_gallari{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    gap: 28px;
+    padding: 10px 10px 10px 10px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.main_box{
+    background: #335eaf;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:30px 30px 0px 0px;
+}

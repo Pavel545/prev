@@ -1,0 +1,40 @@
+.showcase{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+.showcase_img{
+    background: #000;
+    height: 100%;
+    width: 100%;
+}
+.right_gallery{
+    height: 95vh;
+    width: 23%;
+    background: #002580;
+    position: fixed;
+    right: 0px;
+    opacity: 0.5;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    top: 0;
+    
+}
+.showcase_text{
+    color: #fff;
+}
+.bec{
+    color: red;
+    border-radius: 20px 0 0 20px;
+    position: fixed;
+    height: 100vh;
+    right: 0;
+    top: 0;
+}

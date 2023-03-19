@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+#tr-popup{
+    display: none;
+}
+#tr-popup[data-hidden="true"] {
+    display: none;
+}

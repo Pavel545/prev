@@ -1,0 +1,22 @@
+.preview{
+    width: 90%;
+    padding: 10px;
+    background: #fff;
+    border-radius: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.preview_img{
+    
+    height: 100%;
+    width: 100%;
+}
+.preview_text{
+    text-align: center;
+    padding-top: 15px;
+}
+.preview_img_box{
+    height: 90%;
+    width: 100%;
+    overflow: hidden;
+}
