@@ -10,6 +10,13 @@ export const allSusccess=(todos)=>({
         todos,
     }
 })
+
+export const spacificSusccess=(specific)=>({
+    type:SUCCESS,
+    payload:{
+        specific,
+    }
+})
 export const allFilure=()=>({
     type:FILURE,
 })

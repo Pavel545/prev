@@ -1,9 +1,9 @@
-import { STARTED, SUCCESS,FILURE } from "./types";
+import { STARTED, SUCCESS,FILURE, SPECIFIC } from "./types";
 
 const initialState = {
     loading: false,
     error: null,
-    todos: { all: [] },
+    todos: { all: [], specific: [] },
   };
 
   export default function todoReducer(state = initialState, action) {
@@ -31,6 +31,17 @@ const initialState = {
   
           todos: {
             all: [...action.payload.todos],
+          },
+        };
+        case SPECIFIC:
+        return {
+          ...state,
+          loading: false,
+          error: null,
+  
+          todos: {
+            all: [...state.todos.all],
+            specific: [...action.payload.specific],
           },
         };
   

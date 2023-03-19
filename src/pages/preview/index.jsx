@@ -1,7 +1,10 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { useDispatch, useSelector } from "react-redux";
 import { NavLink, useParams } from "react-router-dom";
 import { Header } from "../../components/header";
 import { MiniShow } from "../../components/mini_showcase";
+import { todosSelector } from "../../stor/selectors";
+import { spacificPrev } from "../../stor/thunk";
 import "./style.css"
 export function Preview() {
     const params = useParams();
@@ -11,6 +14,17 @@ export function Preview() {
     const[filter,setFilter]=useState("")
     const [collapse,setCollapse]=useState(false);
     console.log(filter);
+
+    const discpatch =useDispatch()
+    const data = useSelector(todosSelector)
+    
+    useEffect(() => {
+        discpatch(spacificPrev())
+        console.log(state);
+        
+    }, [discpatch]);
+
+
     return(
         <div>
             <Header filter={setFilter} child={<Beak/>}/>
