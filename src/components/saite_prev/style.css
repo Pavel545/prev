@@ -1,0 +1,35 @@
+.preview{
+    width: 90%;
+    padding: 10px;
+    background: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 500ms;
+    box-shadow: -2px 2px 5px #000000ed;
+
+}
+.preview:hover{
+
+    transform: scale(1.05);
+    box-shadow: -10px 7px 17px #000000ed;
+}
+.preview_img{
+    
+    width: 100%;
+}
+.preview_text{
+    font-family: 'Museo Sans Cyrl';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+    color: #2A5CAE;
+    text-align: center;
+    padding-top: 10px;
+}
+.preview_img_box{
+    height: 200px;
+    width: 100%;
+    overflow: hidden;
+}

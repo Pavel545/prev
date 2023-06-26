@@ -1,0 +1,30 @@
+.miniShow{
+    padding: 10px;
+    /* background: #fff; */
+    cursor: pointer;
+    width: 100%;
+    transition: 300ms;
+    /* box-shadow: 0px 0px 1px #000000; */
+
+}
+.miniShow:hover{
+    /* box-shadow: 0px 0px 15px #000000; */
+    transform: scale(1.02);
+
+}
+
+.miniShow_img{
+    width: 100%;
+    height: auto;
+}
+.miniShow_img_box{
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+.miniShow_text{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 15px;
+}
